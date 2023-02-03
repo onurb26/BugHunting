@@ -87,9 +87,9 @@ void dividi()
 
 void ins_string() 
 {
-	char stringa[26];
-        printf("Inserisci la stringa (max 26 caratteri): ");
-        scanf(" %25[^\n]",&stringa);
+	char stringa[10];
+        printf("Inserisci la stringa (max 9 caratteri): ");
+        scanf(" %9[^\n]",&stringa);
         printf("Stringa Inserita: %s",stringa);
 
 }
