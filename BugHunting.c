@@ -73,7 +73,7 @@ void dividi()
          }else{
 	  printf("Inserisci il denumeratore:");
           c2=scanf ("%d", &b);
-        if(c2==0 || b<1){                       
+        if(c2==0 || b<1){              //Controlla che l'input sia un numero e denominatore sia >0         
            printf("Errore input!");
           return;
         }else{
